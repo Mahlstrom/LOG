@@ -1,4 +1,6 @@
 {
+	"name": "mahlstrom/LOG",
+	"description": "My quick monolog accesser",
 	"authors": [
 		{
 			"name": "Magnus Ahlström",
