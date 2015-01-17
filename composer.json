@@ -1,0 +1,30 @@
+{
+	"authors": [
+		{
+			"name": "Magnus Ahlström",
+			"email": "magnus.ahlstrom@sbsradio.se",
+			"role": "Developer"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Mahlstrom/monologColorFormatter.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/Mahlstrom/monologTimeSinceExec.git"
+		}
+	],
+	"require": {
+		"php": ">=5.0.0",
+		"monolog/monolog": "1.8.0",
+		"mahlstrom/monolog-color-formatter": "dev-master",
+		"mahlstrom/monolog-time-since-exec-processor": "dev-master"
+	},
+	"autoload": {
+		"psr-4":{
+			"mahlstrom\\":"src"
+		}
+	}
+}
