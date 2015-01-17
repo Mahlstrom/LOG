@@ -1,13 +1,13 @@
 {
 	"name": "mahlstrom/log",
-	"description": "My quick monolog accesser",
+	"description": "custom logg",
 	"authors": [
 		{
-			"name": "Magnus Ahlström",
-			"email": "magnus.ahlstrom@sbsradio.se",
-			"role": "Developer"
+			"name": "Magnus Ahlstrom",
+			"email": "magnus@atuin.se"
 		}
 	],
+	"license": "MIT",
 	"repositories": [
 		{
 			"type": "vcs",
@@ -16,17 +16,20 @@
 		{
 			"type": "vcs",
 			"url": "https://github.com/Mahlstrom/monologTimeSinceExec.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/Mahlstrom/LOG.git"
 		}
 	],
 	"require": {
-		"php": ">=5.0.0",
 		"monolog/monolog": "1.8.0",
 		"mahlstrom/monolog-color-formatter": "dev-master",
 		"mahlstrom/monolog-time-since-exec-processor": "dev-master"
 	},
 	"autoload": {
-		"psr-4":{
-			"mahlstrom\\":"src"
+		"psr-4": {
+			"mahlstrom\\": "src/"
 		}
 	}
 }
